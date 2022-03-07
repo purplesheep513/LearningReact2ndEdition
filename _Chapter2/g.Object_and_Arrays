@@ -56,3 +56,17 @@ const [, , thirdAnimal] = ["Horse", "Mouse", "Cat"];
 console.log(thirdAnimal); // 예상되는 출력 값 : Cat
 /************** Example2 **************/
 
+
+
+
+◎ Object Literal Enhancement
+위와 반대경우를 말한다. 변수 또는 상수를 따로 선언해 묶으면 객체가 된다.
+
+/************** Example1 **************/
+const name = "Tallac";
+const elevation = 9738;
+
+const funHike = { name, elevation }; // 합쳐준다.
+
+console.log(funHike); // 예상되는 출력 값 : {name: "Tallac", elevation: 9738}
+/************** Example1 **************/

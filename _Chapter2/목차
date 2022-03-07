@@ -12,14 +12,12 @@ Chapter 2. JavaScript For React
 - Objects and Arrays
   · Destructuring Objects
   · Destructuring Arrays
-- Object Literal Enhancement
+  · Object Literal Enhancement
 - The Spread Operator
 - Asynchronous JavaScript
-- Simple Promises with Fetch
-- Async/Await
-- Building Promises
+  · Simple Promises with Fetch
+  · Async/Await
+  · Building Promises
 - Classes
 - Es6 Modules
 - CommonJS
-
-
