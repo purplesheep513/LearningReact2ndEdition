@@ -24,7 +24,8 @@ const example = (firstName, lastName) => ({
    일반 함수 안의 this 는 함수가 생성한 객체, 즉 생성자 함수의 인스턴스를 가리킨다.
    그러나 일반 함수 안의 함수(내부함수, 콜백함수) 의 this는 전역객체 window를 가리킨다.
 
-예시)
+
+/************** Example **************/
 const tahoe = {
   mountains: ["Freel", "Rose", "Tallac", "Rubicon", "Silver"],
   print: function(delay = 1000) {
@@ -35,14 +36,15 @@ const tahoe = {
 };
 
 tahoe.print();
-
-다음과 같은 로직을 실행하면 Uncaught TypeError: Cannot read property 'join' of undefined 라는 에러가 뜨게 된다.
+/************** Example **************/
+위와 같은 로직을 실행하면 Uncaught TypeError: Cannot read property 'join' of undefined 라는 에러가 뜨게 된다.
 이 에러는 print함수 안의 this.mountains에게 join이라는 메서드를 사용하려고 하여 나는 에러다.(join : 배열을 문자열로 만들어주는 메서드)
 이 함수에서 this는 전역 객체인 window{}를 가리킨다. 함수 안의 함수(내부함수, 콜백함수) 내부의 this는 전역객체를 가리키기 때문이다.
 window scope에는 mountains라는 변수가 없으므로 에러가 난다.
 
-이를 해결하기 위해
 
+이를 해결하기 위해
+/************** Example **************/
 const tahoe = {
   mountains: ["Freel", "Rose", "Tallac", "Rubicon", "Silver"],
   print: function(delay = 1000) {
@@ -53,12 +55,15 @@ const tahoe = {
 };
 
 tahoe.print(); 
+/************** Example **************/
 와 같이 써준다. 이렇게 작성했을 때 예상되는 출력값은 Freel, Rose, Tallac, Rubicon, Silver 가 된다.
 setTimeout 안의 함수를 화살표 함수로 작성하게되면 setTimeout 안의 this는 상위 scope의 this를 가리킨다.
 
 
 하지만 setTimeout바깥의 함수까지 화살표 함수를 사용하면 어떤 일이 일어날까?
 
+
+/************** Example **************/
 const tahoe = {
   mountains: ["Freel", "Rose", "Tallac", "Rubicon", "Silver"],
   print: (delay = 1000) => {
@@ -69,6 +74,10 @@ const tahoe = {
 };
 
 tahoe.print();
-
-다음과 같은 로직을 실행하면 Uncaught TypeError: Cannot read property 'join' of undefined 라는 에러가 뜨게된다.
+/************** Example **************/
+위와 같은 로직을 실행하면 Uncaught TypeError: Cannot read property 'join' of undefined 라는 에러가 뜨게된다.
 arrow함수의 상위 scope가 전역객체가 되므로 this가 가리키는 것이 window가 된다는 뜻..
+
+
+
+Babel : 최신 문법을 해석해 옛날 문법을 이용하는 브라우저도 이해할 수 있도록 변환해주는 역할을 한다.

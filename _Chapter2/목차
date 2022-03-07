@@ -10,8 +10,8 @@ Chapter 2. JavaScript For React
 - Default Parameters
 - Arrow Functions
 - Objects and Arrays
-- Destructuring Objects
-- Destructuring Arrays
+  · Destructuring Objects
+  · Destructuring Arrays
 - Object Literal Enhancement
 - The Spread Operator
 - Asynchronous JavaScript
