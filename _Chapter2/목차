@@ -1,12 +1,12 @@
 목차
-챕터 2. JavaScript For React
+Chapter 2. JavaScript For React
 - Declaring Variables
-- The const Keyword
-- The let Keyword
+  · The const Keyword
+  · The let Keyword
 - Template Strings
 - Creating Functions
-- Function Declarations
-- Function Expressions
+  · Function Declarations
+  · Function Expressions
 - Default Parameters
 - Arrow Functions
 - Objects and Arrays
