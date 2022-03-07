@@ -1,4 +1,25 @@
-JavaScript For React
+목차
+챕터 2. JavaScript For React
 - Declaring Variables
 - The const Keyword
 - The let Keyword
+- Template Strings
+- Creating Functions
+- Function Declarations
+- Function Expressions
+- Default Parameters
+- Arrow Functions
+- Objects and Arrays
+- Destructuring Objects
+- Destructuring Arrays
+- Object Literal Enhancement
+- The Spread Operator
+- Asynchronous JavaScript
+- Simple Promises with Fetch
+- Async/Await
+- Building Promises
+- Classes
+- Es6 Modules
+- CommonJS
+
+
