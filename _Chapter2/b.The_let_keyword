@@ -20,7 +20,7 @@ console.log("global", topic); // 예상되는 출력값: global React
 var topic = "JavaScript";
 
 if (topic) {
-  let topic = "React";
+  let topic = "React"; // topic은 새로운 변수 취급
   console.log("block", topic); // 예상되는 출력값: block React
 }
 
@@ -33,10 +33,10 @@ console.log("global", topic); // 예상되는 출력값: global JavaScript
 
 /************** var로 선언할 경우 **************/
 var div,
-  container = document.getElementById("container");
 
 for (var i = 0; i < 5; i++) {
   div = document.createElement("div");
+  container = document.getElementById("container");
   div.onclick = function() {
     alert("This is box #" + i);
   };
