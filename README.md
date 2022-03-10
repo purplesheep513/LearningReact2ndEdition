@@ -16,9 +16,9 @@ index README
 # Chapter3
 
 # Chapter4
-## [- Page Setup](_Chapter4/Page_Setup)
-## [- React Elements](_Chapter4/React_Elements)
-## [- ReactDOM](_Chapter4/ReactDOM)
-## [- Children](_Chapter4/Children)
-## [- React Components](_Chapter4/React_Components)
-## [- React Components: A Historical Tour](_Chapter4/React_Components_A_Historical_Tour)
+## [- Page Setup](_Chapter4/a.Page_Setup)
+## [- React Elements](_Chapter4/b.React_Elements)
+## [- ReactDOM](_Chapter4/c.ReactDOM)
+## [- Children](_Chapter4/d.Children)
+## [- React Components](_Chapter4/e.React_Components)
+## [- React Components: A Historical Tour](_Chapter4/f.React_Components_A_Historical_Tour)
