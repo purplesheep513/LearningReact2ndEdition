@@ -1,4 +1,4 @@
-Template String
+# Template String
 
 템플릿 스트링이란 ``<- 이것을 말한다.
 
@@ -6,12 +6,12 @@ Template String
 그러나 `를 이용하면 중간에 + 연산자를 이용하는 번거로움을 줄일 수 있다.
 
 그러므로
-var1 + "," + var2 는 `${var1}, ${var2}`와 같다.
+var1 + "," + var2 는 \`\${var1}, ${var2}\`와 같다.
 
 ※ 템플릿 스트링안의 변수는 ${}안에 넣어주기로 약속되어있다.
 
 
-/************** Example **************/
+```javascript
 document.body.innerHTML = `
 <section>
   <header>
@@ -26,5 +26,5 @@ document.body.innerHTML = `
   </footer>
 </section>
 `
-/************** Example **************/
+```
 해주면 원하는 태그와 문자와 변수를 바로 넣을 수 있다.

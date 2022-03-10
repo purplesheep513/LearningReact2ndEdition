@@ -1,4 +1,4 @@
-Page Setup
+# Page Setup
 
 리액트를 이용하기 위해 두가지 라이브러리가 필요
 1. React 

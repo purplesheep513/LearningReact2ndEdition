@@ -1,4 +1,4 @@
-React Components
+# React Components
 
 UI는 버튼, 목록, 제목 등의 각각의 파트로 나뉘어져 있다. 이러한 파트가 모여 UI를 구성하게 된다.
 리액트에서는 이러한 각각의 파트를 컴포넌트라 부른다. 컴포넌트를 생성할 때 함수를 사용하므로 컴포넌트는 재사용이 가능하다.
@@ -7,7 +7,7 @@ UI는 버튼, 목록, 제목 등의 각각의 파트로 나뉘어져 있다. 이
 
 
 아래의 예시를 보면
-/************** Example1 **************/
+```javascript
   const secretIngredients = [
     "1 cup unsalted butter",
     "1 cup crunchy peanut butter",
@@ -34,4 +34,4 @@ UI는 버튼, 목록, 제목 등의 각각의 파트로 나뉘어져 있다. 이
     React.createElement(IngredientsList, { items: secretIngredients }, null),
     document.getElementById("root")
   );
-/************** Example1 **************/
+```
