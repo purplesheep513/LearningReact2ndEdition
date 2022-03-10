@@ -24,7 +24,7 @@ index README
 ## [- React Components: A Historical Tour](_Chapter4/f.React_Components_A_Historical_Tour.md)
 
 # Chapter5 
-## [- React Elements as JSX](_Chapter5/a.React_Elements_as_JSX.md)
-## [- Mapping Array with JSX](_Chapter5/b.Mapping_Array_with_JSX.md)
-## [- React Fragment](_Chapter5/c.React_Fragment.md)
-## [- Intro to webpack](_Chapter5/d.Intro_to_webpack.md)
+## [- React Elements as JSX](./_Chapter5/a.React_Elementes_as_JSX.md)
+## [- Mapping Array with JSX](./_Chapter5/b.Mapping_Array_with_JSX.md)
+## [- React Fragment](./_Chapter5/c.React_Fragments.md)
+## [- Intro to webpack](./_Chapter5/d.intro_to_webpack.md)
