@@ -11,3 +11,35 @@ JSX에서는 태그를 사용해 element의 타입을 지정한다. (HTML과 흡
   <li>3 Cloves of Garlic</li>
 </ul>
 ```
+
+## JSX Tips
+JSX는 HTML과 비슷하게 생겼지만 몇 가지 고려해야할 점이 있다.
+### **Nested components**
+JSX 태그 안에 자식 태그를 추가할 수 있음. 
+```javascript
+<IngredientsList>
+  <Ingredient />
+  <Ingredient />
+  <Ingredient />
+</IngredientsList>
+```
+### **className**
+HTML태그와 달리 JSX에서는 class 어트리뷰트를 className라고 명명함.
+
+```javascript
+<h1 className="fancy">Baked Salmon</h1>
+```
+### **JavaScript expressions**
+{} 를 이용해 변수값을 넣을 수 있다.
+```javascript
+<h1>{title}</h1>
+// 또는
+<input type="checkbox" defaultChecked={false} />
+```
+### **Evaluation**
+{}안에 자바스크립트 코드처럼 작성할 수 있다.
+```javascript
+<h1>{"Hello" + title}</h1>
+
+<h1>{title.toLowerCase().replace}</h1>
+```

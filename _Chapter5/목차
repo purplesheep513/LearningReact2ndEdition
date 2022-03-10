@@ -7,10 +7,9 @@ JSX는 자바스크립트의 JS와 XML의 X가 합쳐진 말이다. 자바스크
 
 Chapter 5. React With JSX
 - React Elements as JSX
-- JSX Tips
+  · JSX Tips
 - Mapping Array with JSX
-- Babel
-- Recipes as JSX
+  · Babel
 - React Fragment
 - Intro to webpack
 - Creating the project
