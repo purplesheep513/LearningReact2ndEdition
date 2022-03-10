@@ -1,0 +1,19 @@
+목차
+
+React를 이용해 효과적으로 개발을 하기 위해 JSX가 필요하다.
+JSX는 자바스크립트의 JS와 XML의 X가 합쳐진 말이다. 자바스크립트의 성질은 유지하되 태그 기반의 문법을 이용해 리액트 요소를 정의해줄 수 있다.
+
+이 챕터에서는 React애플리케이션을 구축하기 위해 JSX를 사용하는 방법을 알아볼 것이다.
+
+Chapter 5. React With JSX
+- React Elements as JSX
+- JSX Tips
+- Mapping Array with JSX
+- Babel
+- Recipes as JSX
+- React Fragment
+- Intro to webpack
+- Creating the project
+- Loading the Bundle
+- Source Mapping
+- Create React App
