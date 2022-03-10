@@ -77,5 +77,5 @@ const tahoe = {
 
 tahoe.print();
 ```
-위와 같은 로직을 실행하면 `Uncaught TypeError: Cannot read property 'join' of undefined` 라는 에러가 뜨게된다.<br/>
+위와 같은 로직을 실행하면 `Uncaught TypeError: Cannot read property 'join' of undefined` 라는 에러가 뜨게된다.</br>
 arrow함수의 상위 scope가 전역객체가 되므로 this가 가리키는 것이 window가 된다는 뜻..
