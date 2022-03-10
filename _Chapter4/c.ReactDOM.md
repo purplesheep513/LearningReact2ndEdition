@@ -8,6 +8,7 @@ React Elements와 그의 자식을 ReacDOM.render 메서드로 랜더링 할 수
   const dish = React.createElement("h1", {id="menu"}}, "Baked Salmon");
 
   ReactDOM.render(dish, document.getElementById("root"));
+  <br/>
 /************** Example1 **************/<br/>
 와 같이 사용할 수 있다.<br/>
 
@@ -25,9 +26,10 @@ React Elements와 그의 자식을 ReacDOM.render 메서드로 랜더링 할 수
 <br/>
 ReacDOM.render의 첫 번째 파라미터에는 다음과 같이 배열이 들어갈 수도 있다.
 
-/************** Example2 **************/
+/************** Example2 **************/<br/>
 const dish = React.createElement("h1", null, "Baked Salmon");
 const dessert = React.createElement("h2", null, "Coconut Cream Pie");
 
 ReactDOM.render([dish, dessert], document.getElementById("root"));
+<br/>
 /************** Example2 **************/
