@@ -40,5 +40,4 @@ index README
 ## [- Rules to Follow with Hooks](./_Chapter7/e.Rules_to_Follow_with_Hooks.md)
 ## [- Improving Code with useReducer](./_Chapter7/f.Improving_Code_with_useReducer.md)
 ## [- Improving Component Performance](./_Chapter7/g.Improving_Component_Performance.md)
-
 ## [- When to Refactor](./_Chapter7/i.When_to_Refactor.md)
