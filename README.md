@@ -30,3 +30,15 @@ index README
 ## [- Intro to webpack](./_Chapter5/d.intro_to_webpack.md)
 
 # Chapter6
+
+# Chapter7
+
+## [- Introducing useEffect](./_Chapter7/a.Introducing_useEffect.md)
+## [- The Dependency Array](./_Chapter7/b.The_Dependency_Array.md)
+## [- Deep Checking Dependencies](./_Chapter7/c.Deep_Checking_Dependencies.md)
+## [- When to useLayoutEffect](./_Chapter7/d.When_to_useLayoutEffect.md)
+## [- Rules to Follow with Hooks](./_Chapter7/e.Rules_to_Follow_with_Hooks.md)
+## [- Improving Code with useReducer](./_Chapter7/f.Improving_Code_with_useReducer.md)
+## [- Improving Component Performance](./_Chapter7/g.Improving_Component_Performance.md)
+
+## [- When to Refactor](./_Chapter7/i.When_to_Refactor.md)

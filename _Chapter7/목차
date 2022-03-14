@@ -1,0 +1,20 @@
+목차
+Chapter 7. Enhancing Components with Hooks
+
+props나 state가 변화하면 컴포넌트 트리 렌더러는 사용자 인터페이스에 가장 최근의 데이터를 반영시킨다.
+이때 useState는 컴포넌트가 렌더링 되는 방법을 알려주기 위해 존재한다.
+그러나 useState 말고도 hooks에는 컴포넌트가 언제, 왜 렌더링 되어야 하는지를 확인할 수 있는 다른 도구들이 있다. 
+
+7챕터에서는 렌더링을 수행하기 위해 더욱 향상된 방법들을 소개할 것이다.
+(useEffect, useLayoutEffect, useReducer 그리고 useCallback과 useMemo에 대해 중점적으로 알아볼 것임)
+
+- Introducing useEffect
+- The Dependency Array
+- Deep Checking Dependencies
+- When to useLayoutEffect
+- Rules to Follow with Hooks
+- Improving Code with useReducer
+- useReducer to Handle Complex State
+- Improving Component Performance
+- shouldComponentUpdate and PureComponent
+- When to Refactor
